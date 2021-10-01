@@ -144,3 +144,168 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Header Nav */
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display:flex;
+    background-color: white;
+    color:white; 
+    height:70px;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: row;
+    margin:auto;
+}
+
+#logo{
+    margin-left: auto;
+    padding-right: 255px;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar a{
+    color:black;
+    padding: 10px;
+    margin:0 5px;
+    font-weight: 110;
+    font-style: none;
+    text-decoration: none;
+    
+    
+}
+
+.headerdiv{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+}
+
+/* Jumbo Picture */
+
+.picture{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+/* boxes */
+
+.box#one{
+    background-color: teal;
+}
+
+.box#two{
+    background-color: gold;
+}
+
+.box#three{
+    background-color: cadetblue;
+}
+.box#four{
+    background-color: coral;
+}
+.box#five{
+    background-color: crimson;
+}
+.box#six{
+    background-color: forestgreen;
+}
+.box#seven{
+    background-color: darkorchid;
+}
+.box#eight{
+    background-color: hotpink;
+}
+.box#nine{
+    background-color: indigo;
+}
+.box#ten{
+    background-color: dodgerblue;
+}
+/* About */
+
+.aboutpic{
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+
+.container.about-page{
+    border-bottom: dotted;
+}
+
+
+.paragraph{
+    border-bottom: dotted;
+    padding-bottom: 25px;
+}
+
+/* Section 1 Strategy */
+
+h2{
+    padding-top: 10px;
+}
+p{
+    padding-bottom: 10px;
+}
+.button{
+    border-radius: 12px;
+    border-style: 1px solid black;
+    background-color:white;
+    padding: 7px;
+}
+
+
+.top2box{
+    padding-top: 25px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+
+/* bottom 2 boxes */
+
+.bot2box{
+    padding-top: 25px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-top: dotted;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.bot2box img{
+    display: flex;
+    max-width: 100%;
+}
+
+
+
