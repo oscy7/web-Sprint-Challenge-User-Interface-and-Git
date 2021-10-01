@@ -154,13 +154,26 @@ footer nav a {
 }
 
 .navbar{
+    display:flex;
     background-color: white;
     color:white; 
     height:70px;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: row;
+    margin:auto;
+}
+
+#logo{
+    margin-left: auto;
+    padding-right: 255px;
 }
 
 .navbar ul{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .navbar a{
@@ -171,14 +184,7 @@ footer nav a {
     font-style: none;
     text-decoration: none;
     
-}
-
-.navbar a:hover{
-    border-bottom: 2px white solid;
-}
-
-.navbar .flex{
-    /* justify-content: space-between; */
+    
 }
 
 .headerdiv{
@@ -192,7 +198,7 @@ footer nav a {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-direction: row; */
+    flex-direction: row; 
 }
 
 /* Jumbo Picture */
@@ -240,6 +246,14 @@ footer nav a {
 }
 /* About */
 
+.aboutpic{
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+
 .container.about-page{
     border-bottom: dotted;
 }
@@ -252,18 +266,46 @@ footer nav a {
 
 /* Section 1 Strategy */
 
+h2{
+    padding-top: 10px;
+}
+p{
+    padding-bottom: 10px;
+}
+.button{
+    border-radius: 12px;
+    border-style: 1px solid black;
+    background-color:white;
+    padding: 7px;
+}
+
 
 .top2box{
     padding-top: 25px;
     display:flex;
     justify-content: space-around;
     flex-direction: row;
-    /* flex-direction: column;
-    flex-wrap: wrap; */
+    padding-bottom: 25px;
+    align-items: center;
 }
 
 
+/* bottom 2 boxes */
 
+.bot2box{
+    padding-top: 25px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-top: dotted;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.bot2box img{
+    display: flex;
+    max-width: 100%;
+}
 
 
 
