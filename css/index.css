@@ -169,6 +169,8 @@ footer nav a {
     margin:0 5px;
     font-weight: 110;
     font-style: none;
+    text-decoration: none;
+    
 }
 
 .navbar a:hover{
@@ -236,3 +238,32 @@ footer nav a {
 .box#ten{
     background-color: dodgerblue;
 }
+/* About */
+
+.container.about-page{
+    border-bottom: dotted;
+}
+
+
+.paragraph{
+    border-bottom: dotted;
+    padding-bottom: 25px;
+}
+
+/* Section 1 Strategy */
+
+
+.top2box{
+    padding-top: 25px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+}
+
+
+
+
+
+
